@@ -42,6 +42,10 @@ git fetch [name_of_branch]
 ```
 git merge [name_of_branch]
 ```
+**4. Update your remote branch with merges:**
+```
+git push
+```
 
 **Guides:** https://guides.github.com/
 
