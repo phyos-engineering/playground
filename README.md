@@ -2,7 +2,7 @@
 
 Use this repoistory to practice pull requests, branching, fetching updates from target branch and etc.
 
-## Instructions:
+## Pull Requests:
 
 **1. Create your own branch:**
 ```
@@ -24,9 +24,24 @@ git push
 ```
 **5. Open pull request comparing [name_of_your_branch] with the DEVELOPMENT BRANCH.**
 
-## Best Practices:
+### Best Practices:
 
 1. Avoid opening pull requests highlighting massive changes (lots of code added/deleted).
+
+## Fetching Updates From A Branch
+
+**1. Switch to your branch:**
+```
+git checkout [name_of_your_new_branch]
+```
+**2. Fetch data from [name_of_branch]:**
+```
+git fetch [name_of_branch]
+```
+**3. Merge data from [name_of_branch] with your branch:**
+```
+git merge [name_of_branch]
+```
 
 **Guides:** https://guides.github.com/
 
