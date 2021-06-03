@@ -22,8 +22,7 @@ git add foo.py
 git commit -m "adding method A"
 git push
 ```
-**5. Open pull request comparing [name_of_your_branch] with the DEVELOPMENT BRANCH.**
-Assign phyos-engineering as reviewer of pull request.
+**5. Open pull request comparing [name_of_your_branch] with the DEVELOPMENT BRANCH and assign PHYOS-ENGINEERING as reviewer of pull request.**
 
 ### Best Practices:
 
