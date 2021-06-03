@@ -10,6 +10,10 @@
 # conda_version   :4.8.3
 # =================================================================================================================
 
+"""
+Add arbitrary class methods and push commits for review via pull requests to practice workflow.
+"""
+
 
 class Human:
 	# Constructor
