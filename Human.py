@@ -22,5 +22,6 @@ class Human:
 		self.gender = gender
 		self.age = age
 
+	#Grow the human
 	def grow(self, age):
 		self.age = self.age + age
