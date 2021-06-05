@@ -36,11 +36,11 @@ git checkout [name_of_your_new_branch]
 ```
 **2. Fetch data from [name_of_branch]:**
 ```
-git fetch [name_of_branch]
+git fetch origin [name_of_branch]
 ```
 **3. Merge data from [name_of_branch] with your branch:**
 ```
-git merge [name_of_branch]
+git merge origin/[name_of_branch]
 ```
 **4. Update your remote branch with merges:**
 ```
