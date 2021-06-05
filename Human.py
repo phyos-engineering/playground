@@ -17,6 +17,10 @@ Add arbitrary class methods and push commits for review via pull requests to pra
 
 class Human:
 	# Constructor
-	def __init__(self, name, gender):
+	def __init__(self, name, gender,age):
 		self.name = name
 		self.gender = gender
+		self.age = age
+
+	def grow(self, age):
+		self.age = self.age + age
