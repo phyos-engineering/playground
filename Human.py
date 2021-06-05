@@ -25,3 +25,4 @@ class Human:
 	#Grow the human
 	def grow(self, age):
 		self.age = self.age + age
+		print(self.age)
